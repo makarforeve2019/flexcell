@@ -1,0 +1,82 @@
+POST http://localhost:8081/MWSRestAPI/UBPRosleshoz/Spreadsheet/OpenForm
+Content-Type: application/json
+
+{
+  "TblSessionId": "f1b474d3-de6b-4ba5-8396-475cc8c2ab83",
+  "UserSessionId": 1,
+  "forms": [
+    {
+      "isCurForm": true,
+      "FormId": 1036,
+      "CurrAlbumId": 649,
+      "IsParamForm": 0,
+      "ParamObjectId": 0,
+      "ParamObjectName": "",
+      "FormOrder": 1,
+      "ownerFormPlanId": 0,
+      "InfoAlbumLogic": {
+        "CurrAlbumName": "1. 2. Лесоустройство",
+        "accessalbum_idSelBlockSubj": 0,
+        "CurrPlanId": 34,
+        "CurrPlanName": "Республика Калмыкия",
+        "CanEdit": false,
+        "CurrVidOtch": 4,
+        "CurrYear": 2024,
+        "CurrQuarter": 0,
+        "CurrMonth": 0,
+        "CurrDate": "1715183351",
+        "aShablonKBK": "",
+        "aId_Owner_link1n": 0
+      },
+      "InfoFormLogic": {
+        "isISTZNACHVVODPK": false,
+        "modeNumber": 0,
+        "selectedDate": "0"
+      }
+    }
+  ]
+}
+
+###
+GET http://localhost:8081/MWSRestAPI/UBPRosleshoz/Userctgr/GetUserctgrAll?context_id=1
+
+###
+POST http://localhost:8081/MWSRestAPI/UBPRosleshoz/Spreadsheet/OpenForm
+Content-Type: application/json
+
+{
+    "TblSessionId": "7878785",
+    "UserSessionId": 1,
+    "forms": [
+        {
+            "isCurForm": true,
+      "CurrAlbumId": 5015,
+      "IsParamForm":0,
+      "ParamObjectId":0,
+      "ParamObjectName":"",
+            "FormId":10123,
+      "FormOrder":1,
+      "ownerFormPlanId":0,
+      "InfoAlbumLogic": {
+        "CurrAlbumName": "1.1 Общие сведения",
+        "accessalbum_idSelBlockSubj": 0,
+        "CurrPlanId": 69,
+        "CurrPlanName": "Калужская область",
+        "CanEdit": false,
+        "CurrVidOtch": 2,
+        "CurrYear":2023,
+        "CurrQuarter":0,
+        "CurrMonth":0,
+        "CurrDate": "1711716200",
+        "aShablonKBK": "",
+        "aId_Owner_link1n": 0
+      },
+      "InfoFormLogic": {
+        "isISTZNACHVVODPK":false,
+        "modeNumber":0,
+        "selectedDate":"0"
+      }
+        }
+    ]
+}
+

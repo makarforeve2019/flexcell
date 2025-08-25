@@ -1,0 +1,25 @@
+{
+    "Database": {
+        "admUserName": "lesadm",
+        "admUserPassword": "localadm",
+        "aDatabaseName": "faleshoz",
+        "aServerName": "bfs.msk.ru",
+        "aPort": "3579",
+        "aUserName_docum": "lesadm",
+        "aUserPassword_docum": "localadm",
+        "aDatabaseName_docum": "faleshoz_docum",
+        "aServerName_docum": "bfs.msk.ru",
+        "aPort_docum": "3579",
+        "aIsAnotherServer_docum": false,
+        "isDBpostgre_docum": false,
+        "ConnectDBAtStartProc": 0,
+        "ConnectDBTimeout": 10,
+        "ConnectDBAttempts": 2
+    },
+    "Authorization": {
+        "AuthOption": 0,
+        "AuthExternalType": "jwt",
+        "AuthExternalServer": "https://uat.fgislk.at-consulting.ru/rmdl/pib/backend/",
+        "DefaultContext": "1"
+    }
+}

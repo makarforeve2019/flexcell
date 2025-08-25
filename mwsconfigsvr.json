@@ -1,0 +1,31 @@
+
+{
+  "Database": {
+    "aDatabaseName": "faleshoz",
+    "aServerName": "94.250.249.244",
+    "aPort": "3579",
+    "aDatabaseName_docum": "faleshoz_docum",
+    "aServerName_docum": "94.250.249.244",
+    "aPort_docum": "3579",
+    "aIsAnotherServer_docum": false,
+    "isDBpostgre_docum": false,
+    "ConnectDBAtStartProc": 0,
+    "ConnectDBTimeout": 10,
+    "ConnectDBAttempts": 2
+  },
+  "Authorization": {
+    "AuthOption": 1,
+    "AuthExternalType": "jwt",
+    "AuthExternalServer": "https://bfs.msk.ru/TestAuthExternalServer/",
+    "DefaultContext": "1274",
+    "UpdateUserPermissions": true,
+    "CreateUser": true
+  },
+  "TraceService": {
+    "endpointTrace": "jaeger:4318/v1/traces",
+    "globalActivateTrace": true
+  },
+  "NgService": {
+    "endpointNg": "ng"
+  }
+}
